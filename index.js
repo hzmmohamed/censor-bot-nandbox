@@ -106,7 +106,7 @@ const handleMsg = (text, db, groupId, reply_to_message_id) => {
 };
 
 let DB = null;
-new db().initDB("./db/words.db").then((_DB) => (DB = _DB));
+new db().initDB("./words.db").then((_DB) => (DB = _DB));
 
 var api = null;
 nCallBack.onConnect = (_api, { name, ID }) => {
