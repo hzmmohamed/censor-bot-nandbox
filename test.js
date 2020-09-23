@@ -23,4 +23,4 @@
 // }
 
 // console.log(_.mapValues(obj, val => val.prop1))
-console.log(new RegExp([].join("|")));
+console.log('test1, test2'.split(/,\s*/));
